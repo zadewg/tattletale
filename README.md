@@ -6,6 +6,8 @@
 
 > *Since digital images are usually lossily compressed via quantization in the frequency domain, each pixel in the spatial domain will be “spread” to its surroundings, similar to the Gibbs-effect, before it is redacted. Hence, information of the original pixels might not be completely purged by replacing pixels in the compressed image.*
 
+[proof figuress here]
+
 #### Attack model:
 
 For the vulnerability to be exploited, the analysed image must have been compressed before and after the redaction process, -something usual as digitalizing, manipulating, then exporting involves two compression steps-, and the compression first quality factor should be lower than the second.
