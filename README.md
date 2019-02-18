@@ -8,7 +8,7 @@
 
 #### Attack model:
 
-For the vulnerability to be exploited, the analysed image must have been compressed before and after the redaction process, -something usual as digitalizing, manipulating, then exporting involves two compression steps-, and the compresion first quality factor should be lower than the second.
+For the vulnerability to be exploited, the analysed image must have been compressed before and after the redaction process, -something usual as digitalizing, manipulating, then exporting involves two compression steps-, and the compression first quality factor should be lower than the second.
 
 &nbsp;
 
