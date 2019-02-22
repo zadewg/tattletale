@@ -17,7 +17,7 @@
 
 &nbsp;
 
-A redacted mailbox JPEG image Fig.1. (a) is bruteforced with a dictionary made from photographs of similar number tags Fig.1. (b). This step is aided from other sources of intelligence (OSINT et al.), similar mailboxes appearances can be obtained from a simple ebay search. Note that it is trivial to generate dictionaries for text documents.
+A redacted mailbox JPEG image Fig.1. (a) is bruteforced with a dictionary made from photographs of similar number tags Fig.1. (b). This step is aided from other sources of intelligence (OSINT et al.), similar mailboxes appearances can be obtained from a simple ebay search. Note that it is trivial to generate dictionaries for text documents, and effectiveness is substantially higher.
 
 ---
 
