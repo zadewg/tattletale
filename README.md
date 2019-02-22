@@ -12,10 +12,9 @@
 
 > *Since digital images are usually lossily compressed via quantization in the frequency domain, each pixel in the spatial domain will be “spread” to its surroundings, similar to the Gibbs-effect, before it is redacted. Hence, information of the original pixels might not be completely purged by replacing pixels in the compressed image.*
 
-
 &nbsp;
 
-| ![Stat](/NUS/fig_6.jpg)
+| ![Sanitized](/NUS/fig_6.jpg)
 |:--:| 
 | **Fig.1.** (a) Image captured by a Nokia 6125 mobile phone and then redacted. (b) Templates of postal boxes. |
 
@@ -23,10 +22,16 @@ A postal box image was taken with a Nokia 6125 mobile phone (“normal” JPEG c
 
 To prepare the templates, high quality 5 megapixels images of similar postal boxes were taken with a FujiFilm FinePix 31fd digital camera. The high quality images were then digitally adjusted to estimate the templates as shown in Fig. 1(b).
 
-![Sanitized](/NUS/fig_7.jpg)
+&nbsp;
 
-![Effectiveness](/NUS/fig_5.jpg)
+| ![Estimation](/NUS/fig_7.jpg)
+|:--:| 
+| **Fig.2.** Results of second method on the redacted image in Fig. 1(a). |
 
+
+| ![Effectiveness](/NUS/fig_5.jpg)
+|:--:| 
+| **Fig.3.** (a) Success rate for binary image with JPEG compression quality δ 1 = 50 (b) Success rate for binary image using second method with wavelet transform quantization step δ 2 = 1/100 |
 
 #### Attack model:
 
