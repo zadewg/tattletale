@@ -1,9 +1,12 @@
 # TATTLETALE
 
+<!--
+
 `TATTLETALE` is a an information leak vulnerability in JPEG redacted documents exploiting Block Direct Cosine Transform (DCT) compresion that allows an attacker to conduct statistical buteforce attacks to recover blacked out information.
 
+-->
 
-`TATTLETALE` is an attack on JPEG redacted documents exploiting an information leak in Block Direct Cosine Transform (DCT) compresion that allows recovering blacked out information through a statistical-bruteforce approach. 
+`TATTLETALE` is a security exploit on JPEG redacted documents exploiting an information leak in Block Direct Cosine Transform (DCT) compresion that allows an attacker to recover blacked out information through a statistical-bruteforce approach. 
 
 #### From Nicholas Zhong-Yang Ho, Ee-Chien Chang research at NUS:
 
