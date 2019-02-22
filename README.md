@@ -12,7 +12,21 @@
 
 > *Since digital images are usually lossily compressed via quantization in the frequency domain, each pixel in the spatial domain will be “spread” to its surroundings, similar to the Gibbs-effect, before it is redacted. Hence, information of the original pixels might not be completely purged by replacing pixels in the compressed image.*
 
-[proof figuress here]
+
+&nbsp;
+
+| ![Stat](/NUS/fig_6.jpg)
+|:--:| 
+| **Fig.1.** (a) Image captured by a Nokia 6125 mobile phone and then redacted. (b) Templates of postal boxes. |
+
+A postal box image was taken with a Nokia 6125 mobile phone (“normal” JPEG compression quality, image size at 640 × 480, grey scale effect). This image is then redacted and compressed with quality δ 2 = 90 as shown in Fig. 1(a). The redacted text in the top and bottom left is “10-335” and “10-339” respectively. We assume that the adversary knows the first compression quality δ 1, and he knows that the text is one of the five candidates indicated in Fig. 1(b).
+
+To prepare the templates, high quality 5 megapixels images of similar postal boxes were taken with a FujiFilm FinePix 31fd digital camera. The high quality images were then digitally adjusted to estimate the templates as shown in Fig. 1(b).
+
+![Sanitized](/NUS/fig_7.jpg)
+
+![Effectiveness](/NUS/fig_5.jpg)
+
 
 #### Attack model:
 
