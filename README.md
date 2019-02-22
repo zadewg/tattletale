@@ -40,7 +40,7 @@ The bottom left box is analyzed with the generated dictionary, the result with t
 
 #### Attack model:
 
-For the vulnerability to be exploited, the analyzed image must have been compressed before and after the redaction process, -the standard, as digitalizing, manipulating, then exporting involves two compression steps-, and the compression first quality factor should be lower than the second.
+For the vulnerability to be exploited, the analyzed image must have been compressed before and after the redaction process, (*the standard, as digitalizing, manipulating, then exporting involves two compression steps*), and the first compression quality factor should also be lower than the second.
 
 &nbsp;
 
