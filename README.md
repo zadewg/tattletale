@@ -62,6 +62,9 @@ The goal for an adversary now is to reverse the redaction process, obtaining the
  
  > NOTE: Matlab code currently returns the quantization table only, a quantization table to factor converter is in development.
  
+&nbsp;
+
+
  
  #### First method - Comparison in the spatial domain
  
