@@ -100,16 +100,20 @@ Unlike the first method, in this case an estimation of *R* can not be obtained. 
 
 There are several ways to measure the quantization error in step 4. In NUS research a Weighted Euclidean Distance where the weight is the inverse of the step size is employed. Suppose *C={c1,c2,...,ck}* a set of *k* coefficients, and *s1* the quantization step size for *c1*, the quantization error is:
 
-[Q_ERR](/NUS/QE.jpg)
+![Q_ERR](/NUS/QE.jpg)
 
 
 Note that the effect of the second compression is not taken into consideration and is treated as noise.
+
+---
 
 &nbsp;
 
 | ![Effectiveness](/NUS/fig_5.jpg)
 |:--:| 
 | **Fig.3.** (a) Success rate for binary image with JPEG compression quality δ 1 = 50 (b) Success rate for binary image using second method with wavelet transform quantization step δ 2 = 1/100 |
+
+&nbsp;
 
 As mentioned before, the ration between the first and second compression factors determines the feasibility of this attack. The second compression directly affects how accurately the first one can be estimated. The table above details the effectiveness of the attack for different factors.
 
