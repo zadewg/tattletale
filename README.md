@@ -43,7 +43,7 @@ For the vulnerability to be exploited, the analyzed image must have been compres
 `The redaction process goes as follows:`
 
 ![FIRST](/NUS/for_1_1(1).jpg)  
-![SECOND](/NUS/for_2_1.jpg)  
+![SECOND](/NUS/for_2_1(1).jpg)  
 ![THIRD](/NUS/for_3.jpg)  
 &nbsp;
 
