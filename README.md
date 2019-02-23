@@ -70,7 +70,7 @@ The goal for an adversary now is to reverse the redaction process, obtaining the
  
 When the attacker can reproduce the redacted file before it is compressed, a straight forward comparaison can be carried out. This is the case with text documents.
  
-By mimicking the exact same font and format, a lot of approximaions to *R* can be derived. This templates should then be compressed with *Q1*, redacted, and then recompressed with *Q2*. The following python code compresses an image with a given quality factor [1, 100]. 
+By mimicking the exact same font and format, a lot of approximaions to *R* can be quickly derived. This templates should then be compressed with *Q1*, redacted, and then recompressed with *Q2*. The following python code compresses an image with a given quality factor [1, 100]. 
  
  ``` Python
 import StringIO
@@ -91,7 +91,17 @@ with open("./photo-quality10.jpg", "w") as handle:
 
 Unlike the first method, in this case an estimation of *R* can not be obtained. This is the case with photographs and other files.
 
-1. 
+`The following steps are performed to determine the sanitized data:`
+
+1. An estimation of `I` is obtained by replacing the redacted section of *I3* by *T*, an element of the dictionary.
+2. The image *~I* iscompressed with *Q1*, and the redacted section *S* is extracted.
+3. A new image *~I3* is composed by replacing the redacted section in *I3* by *S*.
+4. *~I3* is compressed again with *Q1*. The element *T* that minimizes the quantization error between *I3, ~I3* is the closest to the sanitized data.
+
+There are several ways to measure the quantization error in step 4. In NUS research a Weighted Euclidean Distance where the weight is the inverse of the step size is employed. Suppose *C={c1,c2,...,ck}* a set of *k* coefficients, and *s1* the quantization step size for *c1*, the quantization error is:
+
+[Q_ERR](/NUS/QE.jpg)
+
 
 Note that the effect of the second compression is not taken into consideration and is treated as noise.
 
