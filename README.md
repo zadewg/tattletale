@@ -69,7 +69,11 @@ im = jpeg_read(<file_name>);
  > NOTE: Matlab code currently returns the quantization table only, a quantization table to factor converter is in development.
  
  
- #### First method
+ #### First method - Comparison in the spatial domain
+ 
+When the attacker can reproduce the redacted file before it is compressed, a straight forward comparaison can be carried out. This is the case with text documents.
+ 
+By mimicking the exact same font and format, a lot of approximaions to *R* can be derived. This templates should then be compressed with *Q1*, redacted, and then recompressed with *Q2*. The following python code compresses an image with a given quality factor [1, 100]. 
  
  ``` Python
 import StringIO
