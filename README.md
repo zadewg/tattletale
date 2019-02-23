@@ -42,9 +42,15 @@ For the vulnerability to be exploited, the analyzed image must have been compres
 
 `The redaction process goes as follows:`
 
+1. The original file is compressed with quality factor *Q1*. This step can be understood as a document being scanned or exported, or as a raw image being JPEG converted.  
 ![FIRST](/NUS/for_1_1(1).jpg)  
+
+2. The sub-image *r* is redacted with a Mask *M*, usually a rectangular black or white box.  
 ![SECOND](/NUS/for_2_1(1).jpg)  
+
+3. The redacted image is now exported (compressed again) with quality factor *Q2*.
 ![THIRD](/NUS/for_3.jpg)  
+
 &nbsp;
 
 | ![Effectiveness](/NUS/fig_5.jpg)
