@@ -36,7 +36,7 @@ The bottom left box is analyzed with the generated dictionary, the result with t
 
 
 
-### Attack model:
+### Attack model
 
 For the vulnerability to be exploited, the analyzed image must have been compressed before and after the redaction process, (*the standard, as digitalizing, manipulating, then exporting involves two compression steps*). The first compression quality factor should also be lower than the second.
 
@@ -128,6 +128,6 @@ As mentioned before, the ration between the first and second compression factors
 * [Estimation of Primary Quantization Matrix for Steganalysis of Double-Compressed JPEG Images - BU](http://ws2.binghamton.edu/fridrich/Research/paper_3_color.pdf)
 
 ---
-
+STILL UNDER DEVELOPMENT
 
 **mapez** - [telegram](https://t.me/mapezz)
