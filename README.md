@@ -58,6 +58,5 @@ For the vulnerability to be exploited, the analyzed image must have been compres
 
 ---
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 **mapez** - [telegram](https://t.me/mapezz)
