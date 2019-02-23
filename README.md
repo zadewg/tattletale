@@ -61,6 +61,9 @@ The goal for an adversary now is to reverse the redaction process, obtaining the
  
  ``` Matlab
  // soon
+im = jpeg_read(<file_name>);
+
+[map, map_s, q1, k1e, k2e] = getJmapNA_EM(im, 1, 6);
  ```
  
 
