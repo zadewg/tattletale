@@ -40,6 +40,11 @@ The bottom left box is analyzed with the generated dictionary, the result with t
 
 For the vulnerability to be exploited, the analyzed image must have been compressed before and after the redaction process, (*the standard, as digitalizing, manipulating, then exporting involves two compression steps*). The first compression quality factor should also be lower than the second.
 
+`The redaction process goes as follows:`
+
+![FIRST](/NUS/for_1_1(1).jpg)  
+![SECOND](/NUS/for_2_1.jpg)  
+![THIRD](/NUS/for_3.jpg)  
 &nbsp;
 
 | ![Effectiveness](/NUS/fig_5.jpg)
