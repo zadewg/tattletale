@@ -57,7 +57,7 @@ The goal for an adversary now is to reverse the redaction process, obtaining the
  - Obtaining *Q2* is trivial, as it is avaible from the JPEG image header. In the case this metadata is purged from the file, it can be easily and accurately aproximated with *ImageMagic* and other common tools.
  
 
- - As to *Q1*, it can be estimated with the software contained in this repository. The mathematics of that process is out of the scope of this documentation and can be consulted from sources [2], [3].
+ - As to *Q1*, it can be estimated with the software contained in this repository. The mathematics behind that process are out of the scope of this documentation and can be consulted from sources [2], [3].
  
  ``` Matlab
  // soon
@@ -66,6 +66,19 @@ im = jpeg_read(<file_name>);
 [map, map_s, q1, k1e, k2e] = getJmapNA_EM(im, 1, 6);
  ```
  
+ ```pyton
+import StringIO
+from PIL import Image
+im1 = Image.open(IMAGE_FILE)
+
+#create an empty string buffer    
+buffer = StringIO.StringIO()
+im1.save(buffer, "JPEG", quality=10)
+
+#write the buffer to a file 
+with open("./photo-quality10.jpg", "w") as handle:
+    handle.write(buffer.contents())
+ ```
 
 &nbsp;
 
