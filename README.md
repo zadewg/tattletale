@@ -66,7 +66,7 @@ im = jpeg_read(<file_name>);
 [map, map_s, q1, k1e, k2e] = getJmapNA_EM(im, 1, 6);
  ```
  
- ```pyton
+ ``` Python
 import StringIO
 from PIL import Image
 im1 = Image.open(IMAGE_FILE)
