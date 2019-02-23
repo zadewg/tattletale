@@ -89,6 +89,8 @@ with open("./photo-quality10.jpg", "w") as handle:
     handle.write(buffer.contents())
  ```
 
+### Second method - Comparison in the transformed domain
+
 &nbsp;
 
 | ![Effectiveness](/NUS/fig_5.jpg)
