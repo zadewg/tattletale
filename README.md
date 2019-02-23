@@ -115,7 +115,7 @@ Note that the effect of the second compression is not taken into consideration a
 
 &nbsp;
 
-As mentioned before, the ration between the first and second compression factors determines the feasibility of this attack. The second compression directly affects how accurately the first one can be estimated. The table above details the effectiveness of the attack for different factors.
+As mentioned before, the ration between the first and second compression factors determines the feasibility of this attack. The second compression directly affects how accurately the first one can be estimated. The graph above details the effectiveness of the attack for different factors.
 
 ---
 
