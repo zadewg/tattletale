@@ -88,8 +88,9 @@ im1.save(buffer, "JPEG", quality=10)
 with open("./photo-quality10.jpg", "w") as handle:
     handle.write(buffer.contents())
  ```
+&nbsp;
 
-### Second method - Comparison in the transformed domain
+#### Second method - Comparison in the transformed domain
 
 &nbsp;
 
