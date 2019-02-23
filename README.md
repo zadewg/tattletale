@@ -93,7 +93,7 @@ Unlike the first method, in this case an estimation of *R* can not be obtained. 
 
 `The following steps are performed to determine the sanitized data:`
 
-1. An estimation of `I` is obtained by replacing the redacted section of *I3* by *T*, an element of the dictionary.
+1. An estimation of *I* is obtained by replacing the redacted section of *I3* by *T*, an element of the dictionary.
 2. The image *~I* iscompressed with *Q1*, and the redacted section *S* is extracted.
 3. A new image *~I3* is composed by replacing the redacted section in *I3* by *S*.
 4. *~I3* is compressed again with *Q1*. The element *T* that minimizes the quantization error between *I3, ~I3* is the closest to the sanitized data.
