@@ -51,6 +51,14 @@ For the vulnerability to be exploited, the analyzed image must have been compres
 3. The redacted image is now exported (compressed again) with quality factor *Q2*.
 ![THIRD](/NUS/for_3.jpg)  
 
+
+The goal for an adversary now is to reverse the redaction process, obtaining the sub-image *r*. To do so, the compression quality factors *Q1, Q2* are required.
+
+ - Obtaining *Q2* is trivial, as it is avaible from the JPEG image header. In the case this metadata is purged from the file, it can be easily and accurately aproximated with *ImageMagic* and other common tools.
+ 
+
+ - As to *Q1*, it can be estimated with the software contained in this repository. The mathematics of that process is out of the scope of this documentation and can be consulted from sources [2], [3].
+
 &nbsp;
 
 | ![Effectiveness](/NUS/fig_5.jpg)
