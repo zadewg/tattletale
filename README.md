@@ -111,7 +111,7 @@ Note that the effect of the second compression is not taken into consideration a
 
 | ![Effectiveness](/NUS/fig_5.jpg)
 |:--:| 
-| **Fig.3.** (a) Success rate for binary image with JPEG compression quality δ 1 = 50 (b) Success rate for binary image using second method with wavelet transform quantization step δ 2 = 1/100 |
+| **Fig.2.** (a) Success rate for binary image with JPEG compression quality δ 1 = 50 (b) Success rate for binary image using second method with wavelet transform quantization step δ 2 = 1/100 |
 
 &nbsp;
 
