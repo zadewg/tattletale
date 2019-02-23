@@ -49,3 +49,17 @@ For the vulnerability to be exploited, the analyzed image must have been compres
 | **Fig.3.** (a) Success rate for binary image with JPEG compression quality δ 1 = 50 (b) Success rate for binary image using second method with wavelet transform quantization step δ 2 = 1/100 |
 
 ---
+
+### References
+
+* [Residual Information of Redacted Images Hidden in the Compression Artifacts](http://ws2.binghamton.edu/fridrich/Research/paper_3_color.pdf)
+
+* [Image Forgery Localization via Block-Grained Analysis of JPEG Artifacts](http://ws2.binghamton.edu/fridrich/Research/paper_3_color.pdf)
+
+* [Estimation of Primary Quantization Matrix for Steganalysis of Double-Compressed JPEG Images - BU](http://ws2.binghamton.edu/fridrich/Research/paper_3_color.pdf)
+
+---
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+**mapez** - [telegram](https://t.me/mapezz)
