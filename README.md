@@ -121,9 +121,9 @@ As mentioned before, the ration between the first and second compression factors
 
 ### References
 
-* [Residual Information of Redacted Images Hidden in the Compression Artifacts](http://ws2.binghamton.edu/fridrich/Research/paper_3_color.pdf)
+* [Residual Information of Redacted Images Hidden in the Compression Artifacts](https://www.comp.nus.edu.sg/~changec/publications/2008_IH_Residual_Information_Redacted_Image.pdf)
 
-* [Image Forgery Localization via Block-Grained Analysis of JPEG Artifacts](http://ws2.binghamton.edu/fridrich/Research/paper_3_color.pdf)
+* [Image Forgery Localization via Block-Grained Analysis of JPEG Artifacts](https://ieeexplore.ieee.org/document/6151134)
 
 * [Estimation of Primary Quantization Matrix for Steganalysis of Double-Compressed JPEG Images - BU](http://ws2.binghamton.edu/fridrich/Research/paper_3_color.pdf)
 
