@@ -36,7 +36,7 @@ The bottom left box is analyzed with the generated dictionary, the result with t
 
 
 
-#### Attack model:
+### Attack model:
 
 For the vulnerability to be exploited, the analyzed image must have been compressed before and after the redaction process, (*the standard, as digitalizing, manipulating, then exporting involves two compression steps*). The first compression quality factor should also be lower than the second.
 
@@ -51,6 +51,7 @@ For the vulnerability to be exploited, the analyzed image must have been compres
 3. The redacted image is now exported (compressed again) with quality factor *Q2*.
 ![THIRD](/NUS/for_3.jpg)  
 
+---
 
 The goal for an adversary now is to reverse the redaction process, obtaining the sub-image *r*. To do so, the compression quality factors *Q1, Q2* are required.
 
@@ -65,6 +66,10 @@ im = jpeg_read(<file_name>);
 
 [map, map_s, q1, k1e, k2e] = getJmapNA_EM(im, 1, 6);
  ```
+ > NOTE: Matlab code currently returns the quantization table only, a quantization table to factor converter is in development.
+ 
+ 
+ #### First method
  
  ``` Python
 import StringIO
