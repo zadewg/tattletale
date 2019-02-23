@@ -30,7 +30,6 @@ A redacted mailbox JPEG image Fig.1. (a) is bruteforced with a dictionary made f
 | 11-335        | 72,8          |  
 | 11-339        | 73,7          |  
 
-&nbsp;
 
 The bottom left box is analyzed with the generated dictionary, the result with the least quantization error is the most accurate estimation of the blacked out data. The table above shows the quantization error for each template, the correct number is indeed 10-339.
 
@@ -40,7 +39,7 @@ The bottom left box is analyzed with the generated dictionary, the result with t
 
 #### Attack model:
 
-For the vulnerability to be exploited, the analyzed image must have been compressed before and after the redaction process, (*the standard, as digitalizing, manipulating, then exporting involves two compression steps*), and the first compression quality factor should also be lower than the second.
+For the vulnerability to be exploited, the analyzed image must have been compressed before and after the redaction process, (*the standard, as digitalizing, manipulating, then exporting involves two compression steps*). The first compression quality factor should also be lower than the second.
 
 &nbsp;
 
